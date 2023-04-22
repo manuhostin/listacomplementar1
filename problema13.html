@@ -1,0 +1,15 @@
+<script>
+    const tempo = prompt('Insira o tempo gasto na viagem');
+    const litros = prompt('Insira a quantidade de litros de gasolina que foi consumida');
+    const preco = prompt('insira o valor do litro de gasolina');
+    const distancia = prompt('Insira a quilometragem percorrida');
+    const velocidade = distancia / tempo;
+    const consumo = distancia / litros;
+    const custocombustivel = litros * preco;
+    const custokm = custocombustivel / distancia;
+    alert("Velocidade média: " + velocidade.toFixed(2) + " km/h" +
+      "\nConsumo médio: " + consumo.toFixed(2) + " km/l" +
+      "\nCusto total do combustível: R$ " + custocombustivel.toFixed(2) +
+      "\nCusto da viagem por km percorrido: R$ " + custokm.toFixed(2));
+
+</script>

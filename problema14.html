@@ -1,0 +1,11 @@
+<script>
+    const salariofixo = prompt('Insira seu salario fixo');
+    const carrosvendidos = prompt('Insira a quantidade de carros vendidos');
+    const valorvendas = prompt('Insira o valor total das vendas');
+    const remuneracaocarro = carrosvendidos * 225;
+    const remuneracaovenda = valorvendas * 0.05;
+    const remuneracaototal = Number(remuneracaocarro) + Number(remuneracaovenda);
+    const salario = remuneracaototal - (remuneracaototal * 0.20);
+    alert('Sua remuneracao extra foi' + ' ' + remuneracaototal + ' ' + 'e seu salario com desconto e' + ' ' + salario);
+
+</script>

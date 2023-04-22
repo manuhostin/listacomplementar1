@@ -1,0 +1,8 @@
+<script>
+    const gado = prompt('Informe quantas cabecas de gado o fazendeiro possui');
+    const herdeiros = prompt('Informe a quantidade de herdeiros');
+    const porcentagemdoada = gado * 0.15;
+    const porcentagemherdeiros = gado - porcentagemdoada;
+    const gadoherdeiros = porcentagemherdeiros / herdeiros;
+    alert('Cada um dos' + " " + herdeiros + " " + 'herdeiros' + ' ' + 'recebera' + ' ' + Math.round(gadoherdeiros)+ ' ' + 'cabecas de gado');
+</script>
